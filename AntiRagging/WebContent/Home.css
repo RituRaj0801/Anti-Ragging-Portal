@@ -1,0 +1,105 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+#header
+{
+	background-image: url(images/banner.jpg);
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+}
+.navbar-nav li a
+{
+	float: right; 
+	color: black;
+}
+.navbar-brand img
+{
+	width: 70px;
+	margin-left: 5px;
+	border-radius: 12px;
+}
+.navbar-toggler
+{
+	border: none;
+	outline: none;
+}
+nav .fa-bars
+{
+	color: black;
+	font-size: 25px;
+}
+/--------------------welcome text--------------/
+.welcome
+{
+	padding: 10px 30px;
+	margin-top: -100px;
+	background-color: white;
+	box-shadow: 0 0 20px 70px rgba(0,0,0,0.2);
+	border-radius: 12px;
+	font-size: 20px;
+}
+.welcome h1
+{
+	color: brown;
+}
+/---------------------About-----------------/
+#About
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#About .col-md-6
+{
+	padding: 20px 5px;
+}
+#About h2
+{
+	margin: 20px auto;
+	padding-left: 30px;
+}
+#About p
+{
+	 padding-left: 30px;
+	 font-size: 20px; 
+}
+#About h3
+{
+	margin: 0px auto;
+	padding-left: 0px;
+}
+#About p
+{
+	padding-left: 30px;
+	font-size: 20px;
+}
+#About iframe
+{
+	padding-left: 20px;
+}
+/---------------Social Media-------------/
+#Social
+{
+	margin-top: 50px;
+	padding: 20px;
+	background-color: white;
+	color: black;
+}
+#Social h1
+{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#Social .noida
+{
+	margin-left: 35px;
+}
+#Social .fa
+{
+	padding-right: 20px;
+	font-size: 15px;
+}

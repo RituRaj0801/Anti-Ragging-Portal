@@ -1,0 +1,88 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.welcome
+{
+	padding: 10px 30px;
+	margin-top: -100px;
+	background-image:url(images/bg.jpg);
+	box-shadow: 0 0 20px 70px rgba(0,0,0,0.2);
+	border-radius: 12px;
+}
+
+
+.navbar-brand img
+{
+	width: 50px;
+	margin-left: 5px;
+}
+.avatar
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1
+{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 20px;
+}
+.checkBox p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.checkBox input
+{
+	width: 20%;
+	margin-bottom: 20px;
+	color: white;
+}
+.checkBox input[type="text"], input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+}
+.checkBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: red;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.checkBox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: orange;
+	color: black;
+}
+.checkBox input[type="text"], input[type="Feedback ID"]
+{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 15px;

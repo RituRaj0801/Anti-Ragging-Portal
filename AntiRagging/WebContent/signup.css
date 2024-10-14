@@ -1,0 +1,92 @@
+body
+{
+	font-family: sans-serif;
+	color: white;
+	background: url(images/pic8.jpg);
+	background-size: cover;
+}
+.navbar-brand img
+{
+	width: 70px;
+	margin-left: 5px;
+}
+.signup
+{
+	background: rgba(44,62,80,0.7);
+	padding: 40px;
+	width: 310px;
+	margin: auto;
+	margin-top: 80px;
+	height: 1020px;
+	margin-left: 180px;
+	margin-top: 90px;
+	margin: 0 auto; 
+}
+form
+{
+	width: 240px;
+	text-align: center;
+	color: white;
+}
+.welcome
+{
+	padding: 10px 30px;
+	margin-top: -10px;
+	background-image: url(images/pic8.jpg);
+	box-shadow: 0 0 20px 70px rgba(0,0,0,0.2);
+	border-radius: 12px;
+}
+.welcome h1
+{
+	color: white;
+}
+
+input
+{
+	/width: 240px;/
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	font-family: 'play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: white; 
+}
+select
+{
+	width: 200px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+	font-family: 'play', sans-serif;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	color: white; 
+}
+
+input[type=submit]
+{
+	border: none;
+	width: 190px;
+	background: orange;
+	color: white;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 15px;
+	
+}
+input[type=submit]:hover
+{
+	cursor: pointer;
+	color: white;
+	background-color: black;
+}

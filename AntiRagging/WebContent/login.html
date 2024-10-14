@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+</head>
+<body>
+	
+		<nav class="navbar navbar-light">
+  <a class="navbar-brand" href="Home.html"><img src="images/atp3.jpg" style="width: 20mm"></a>
+  		</nav>
+  		<section id="welcome">
+   		<div class="container">
+   		<div class="welcome text-center wow fadeInUp ">
+   			<h1>Anti Ragging Portal</h1>
+   		</div>	
+   		</div>
+   </section>
+  		
+	<div class="loginbox">
+		<img src="images/avatar.png" class="avatar">
+		<h1>Login Here</h1>
+		<form method="get" action="loginServlet">
+			<p>Username</p>
+			<input type="text" name="userID" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password" name="pwd" placeholder="Enter Password" value="" id="myInput">	
+
+			<input type="submit" name="b1" value="Login">
+			<!--<a href="#">Forgot Password</a><br>-->
+			Don't have an account?
+			<a href="signup.html"> Sign Up</a>
+		</form>
+	</div>
+
+</body>
+</html>
